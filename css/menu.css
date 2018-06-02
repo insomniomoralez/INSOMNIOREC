@@ -1,0 +1,42 @@
+div#menu-nav {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    -webkit-transition: background-color .5s;
+}
+
+nav {
+    height: 40px;
+    display: table;
+    margin: auto;
+    margin-top: 8px;
+    -webkit-transition: margin-left .5s;
+}
+
+ul {
+    float: left;
+    display: block;
+    list-style: none;
+}
+
+ul a {
+    float: left;
+    text-decoration: none;
+    color: #FFF;
+    margin: 10px;
+    padding: 2px;
+}
+
+ul a:hover {
+    color: gainsboro;
+}
+
+img#logo {
+    float: left;
+    display: block;
+    margin-top: 42px;
+    margin-left: 70px;
+    margin-right: 70px;
+    -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
